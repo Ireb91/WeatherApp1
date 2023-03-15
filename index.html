@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f99829b80b.js" crossorigin="anonymous"></script>  
+<script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
+</head>
+  <body>
+    <div class="container">
+      <form id="update-city-form">
+        <input class="entercity" id="enter-city" type="text" placeholder="Enter City" />
+        <input class="button" id="search-button" type="submit" value="Search" />
+      </form>
+      <button class="current-button" id="current-button"> Current </button>
+    </br>
+    <div class="Openingcity" id="opening-city">Milan</div>
+    <div class="Currentdaytime" id="current-daytime">Monday, 02/20/2023 00:00</div>
+    <div class="Temperature" id="temperature">
+      <span class="Degrees" id="degrees">-2</span>
+      <span id="units"> °C</span>
+         </div>
+    <div class="Minmax"> Min/Max: <span id="min">-4</span>°/<span id="max">3</span>° C</div>
+    <i class="fa-solid fa-moon moon" alt="Moon"></i>
+    <div class="plus">
+    <div class="Generalweather" id="general">Clear</div>
+    <div class="Wind">Wind: <span id="wind-speed">5</span> km/h</div>
+    <div class="Humidity">Humidity: <span id="humidity-percentage">62</span>%</div>
+    </div>
+<ul class="Days">
+    <li>TUESDAY 
+      <div><i class="fa-solid fa-cloud-sun icon"></i> </div>
+      <div>-1°/ 8°</div>
+    </li>
+     <li>WEDNESDAY 
+      <div><i class="fa-regular fa-sun icon"></i> </div>
+      <div>2°/ 12°</div>
+    </li>
+     <li>THURSDAY 
+      <div><i class="fa-regular fa-sun icon"></i> </div>
+      <div>3°/ 13°</div>
+    </li>
+     <li>FRIDAY 
+      <div><i class="fa-solid fa-cloud-sun icon"></i> </div>
+      <div>-1°/ 7°</div>
+       <li>SATURDAY 
+      <div><i class="fa-solid fa-cloud-sun icon"></i> </div>
+      <div>-2°/ 6°</div>
+    </li>
+    </li>
+
+</ul>
+</div>
+  </body>
+<script src="java.js"></script>
