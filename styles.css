@@ -1,12 +1,12 @@
 .container {
   text-align: center;
-  margin-top: 50px;
   font-family: "Poppins", sans-serif;
   color: #fff;
   max-width: 500px;
-  margin: 50px auto;
+  max-height: 780px;
+  margin: 40px auto 10px;
   background: linear-gradient(to right, #243949 0%, #517fa4 100%);
-  padding: 30px;
+  padding: 25px;
   border-radius: 10px;
 }
 
@@ -110,4 +110,8 @@ li:hover {
 }
 .icon {
   font-size: 30px;
+}
+.github-link {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
